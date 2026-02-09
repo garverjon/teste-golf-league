@@ -5,15 +5,7 @@
   <title>Photos | Teste Golf League</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <style>
-    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
-    header { background:#0b3d2e; color:white; padding:20px; }
-    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
-    main { max-width:900px; margin:auto; padding:20px; }
-    h1, h2 { margin-top:0; }
-    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
-    .muted { color:#666; }
-    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
-    .gallery {
+.gallery {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
   gap: 12px;
@@ -26,6 +18,14 @@
   background: #eee;
 }
 
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0b3d2e; color:white; padding:20px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:auto; padding:20px; }
+    h1, h2 { margin-top:0; }
+    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
+    .muted { color:#666; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
   </style>
 </head>
 <body>
@@ -47,17 +47,18 @@
 
 <main>
   <div class="card">
-    <h2><div class="card">
+    <div class="card">
   <h2>Photos</h2>
 
   <div class="gallery">
-    <img src="lake-tahoe.jpg" alt="Week 1 tee box">
-    <img src="work-while-golfing.jpg" alt="Group photo">
+    <img src="images/week1-tee-box.jpg" alt="Week 1 tee box">
+    <img src="images/group-shot.jpg" alt="Group photo">
+    <img src="images/trophy.png" alt="Trophy">
   </div>
 
   <p class="muted">Add more photos by dropping files into <strong>/images</strong> and adding another &lt;img&gt; line.</p>
 </div>
-</h2>
+
     <p class="muted">
       We’ll start posting highlights, best shots, and the occasional “how did that happen?” moment.
     </p>
