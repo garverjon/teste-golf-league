@@ -13,6 +13,19 @@
     .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
     .muted { color:#666; }
     footer { text-align:center; padding:15px; font-size:14px; color:#666; }
+    .gallery {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(220px, 1fr));
+  gap: 12px;
+}
+.gallery img {
+  width: 100%;
+  height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  background: #eee;
+}
+
   </style>
 </head>
 <body>
@@ -34,7 +47,17 @@
 
 <main>
   <div class="card">
-    <h2>Photos Coming Soon</h2>
+    <h2><div class="card">
+  <h2>Photos</h2>
+
+  <div class="gallery">
+    <img src="lake-tahoe.jpg" alt="Week 1 tee box">
+    <img src="work-while-golfing.jpg" alt="Group photo">
+  </div>
+
+  <p class="muted">Add more photos by dropping files into <strong>/images</strong> and adding another &lt;img&gt; line.</p>
+</div>
+</h2>
     <p class="muted">
       We’ll start posting highlights, best shots, and the occasional “how did that happen?” moment.
     </p>
