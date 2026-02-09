@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Sponsors | Teste Golf League</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0b3d2e; color:white; padding:20px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:auto; padding:20px; }
+    h1, h2 { margin-top:0; }
+    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
+    .muted { color:#666; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⛳ Teste Golf League</h1>
+  <p>Sponsors</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="standings.html">Standings</a>
+    <a href="rules.html">Rules</a>
+    <a href="players.html">Players</a>
+    <a href="photos.html">Photos</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="contact.html">Contact / Join</a>
+  </nav>
+</header>
+
+<main>
+  <div class="card">
+    <h2>Sponsors Coming Soon</h2>
+    <p class="muted">
+      Interested in sponsoring the Teste Golf League? Reach out on the Contact page.
+    </p>
+  </div>
+</main>
+
+<footer>
+  © <span id="year"></span> Teste Golf League
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Rules | Teste Golf League</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0b3d2e; color:white; padding:20px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:auto; padding:20px; }
+    h1, h2 { margin-top:0; }
+    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
+    .muted { color:#666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⛳ Teste Golf League</h1>
+  <p>Rules (Short & Simple)</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="standings.html">Standings</a>
+    <a href="rules.html">Rules</a>
+    <a href="players.html">Players</a>
+    <a href="photos.html">Photos</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="contact.html">Contact / Join</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>League Basics</h2>
+    <ul>
+      <li><strong>Style:</strong> Casual weekend golf — fun first.</li>
+      <li><strong>Teams:</strong> 2-man teams (Garver’s vs Phister’s).</li>
+      <li><strong>Schedule:</strong> Weekly weekends, rotating courses.</li>
+    </ul>
+    <p class="muted">We can tighten or expand these anytime.</p>
+  </div>
+
+  <div class="card">
+    <h2>Scoring & Points</h2>
+    <ul>
+      <li><strong>Standings include:</strong> Wins/Losses + Points.</li>
+      <li><strong>Points (current):</strong> Match win = 3, Tie = 1 each, optional bonus = 1.</li>
+      <li><strong>Honesty rule:</strong> Keep it fair — we’re here for fun.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Pace of Play</h2>
+    <ul>
+      <li>Ready golf.</li>
+      <li>Keep up with the group ahead.</li>
+      <li>If a hole is blowing up, pick up and move on.</li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Teste Golf League
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
+

@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Schedule | Teste Golf League</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0b3d2e; color:white; padding:20px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:auto; padding:20px; }
+    h1, h2 { margin-top:0; }
+    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
+    table { width:100%; border-collapse: collapse; }
+    th, td { padding:10px; border-bottom:1px solid #eee; text-align:left; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⛳ Teste Golf League</h1>
+  <p>Schedule</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="standings.html">Standings</a>
+    <a href="rules.html">Rules</a>
+    <a href="players.html">Players</a>
+    <a href="photos.html">Photos</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="contact.html">Contact / Join</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>Season Schedule</h2>
+    <table>
+      <thead>
+        <tr>
+          <th>Week</th>
+          <th>Date</th>
+          <th>Course</th>
+          <th>Match</th>
+          <th>Result</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1</td>
+          <td>TBD</td>
+          <td>TBD</td>
+          <td>Garver’s vs Phister’s</td>
+          <td>—</td>
+        </tr>
+        <tr>
+          <td>2</td>
+          <td>TBD</td>
+          <td>TBD</td>
+          <td>Garver’s vs Phister’s</td>
+          <td>—</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Teste Golf League
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Teste Golf League</title>
+  <meta name="viewport" content="width=device-width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0b3d2e; color:white; padding:20px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:auto; padding:20px; }
+    h1, h2 { margin-top:0; }
+    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
+  </style>
+</head>
+
+<body>
+
+<header>
+  <h1>⛳ Teste Golf League</h1>
+  <p>Casual weekend golf with friends</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="standings.html">Standings</a>
+    <a href="rules.html">Rules</a>
+    <a href="players.html">Players</a>
+    <a href="photos.html">Photos</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="contact.html">Contact / Join</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>Welcome</h2>
+    <p>
+      Welcome to the <strong>Teste Golf League</strong> — a casual, team-based weekend golf league
+      focused on fun, friendly competition, and getting outside.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>Next Match</h2>
+    <p><strong>Date:</strong> TBD</p>
+    <p><strong>Course:</strong> TBD</p>
+    <p><strong>Format:</strong> 2-man teams</p>
+  </div>
+
+  <div class="card">
+    <h2>Quick Info</h2>
+    <ul>
+      <li>Weekly weekend play</li>
+      <li>2 teams, 4 players total</li>
+      <li>Wins/losses + points standings</li>
+      <li>Rotating local courses</li>
+    </ul>
+  </div>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Teste Golf League
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>

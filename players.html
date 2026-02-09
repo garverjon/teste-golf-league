@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Players | Teste Golf League</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <style>
+    body { margin:0; font-family: Arial, sans-serif; background:#f9f9f9; }
+    header { background:#0b3d2e; color:white; padding:20px; }
+    nav a { color:white; margin-right:15px; text-decoration:none; font-weight:bold; }
+    main { max-width:900px; margin:auto; padding:20px; }
+    h1, h2 { margin-top:0; }
+    .card { background:white; padding:20px; border-radius:12px; margin-bottom:20px; }
+    .player { margin-bottom:12px; }
+    .team { color:#0b3d2e; font-weight:bold; }
+    footer { text-align:center; padding:15px; font-size:14px; color:#666; }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>⛳ Teste Golf League</h1>
+  <p>Players</p>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="schedule.html">Schedule</a>
+    <a href="standings.html">Standings</a>
+    <a href="rules.html">Rules</a>
+    <a href="players.html">Players</a>
+    <a href="photos.html">Photos</a>
+    <a href="sponsors.html">Sponsors</a>
+    <a href="contact.html">Contact / Join</a>
+  </nav>
+</header>
+
+<main>
+
+  <div class="card">
+    <h2>Garver’s</h2>
+    <div class="player">
+      <p><strong>Jon</strong></p>
+      <p>Fun fact: Claims to have played golf once before.</p>
+    </div>
+    <div class="player">
+      <p><strong>Melissa</strong></p>
+      <p>Fun fact: No putt is safe when she is around”</p>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Phister’s</h2>
+    <div class="player">
+      <p><strong>Dave</strong></p>
+      <p>Fun fact: Claims to know Ted</p>
+    </div>
+    <div class="player">
+      <p><strong>Chryse</strong></p>
+      <p>Fun fact: Best trash talker in the league.</p>
+    </div>
+  </div>
+
+</main>
+
+<footer>
+  © <span id="year"></span> Teste Golf League
+</footer>
+
+<script>
+  document.getElementById("year").textContent = new Date().getFullYear();
+</script>
+
+</body>
+</html>
